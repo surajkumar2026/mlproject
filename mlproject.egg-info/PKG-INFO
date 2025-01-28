@@ -1,0 +1,11 @@
+Metadata-Version: 2.2
+Name: mlproject
+Version: 0.0.1
+Author: suraj kumar
+Author-email: me22b1073@iiitdm.ac.in
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: seaborn
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist
