@@ -1,5 +1,7 @@
 import sys
-import logging
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from src.logger import logging
 
 def error_message_details(error, error_detail: sys):
     """Extracts detailed error information including script name, line number, and error message."""
